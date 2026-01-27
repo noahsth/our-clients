@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Wedding Video | Chhaya Photography</title>
+    <meta name="description" content="Exclusive wedding video for our valued client. This page is privately shared and unlisted.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="icon" href="../../wp-content/logo/favicon.svg" sizes="32x32">
+    
+    <style>
+        /* Custom styles for video page */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 1rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .page-header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        }
+        
+        .hero-section {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-900/95 backdrop-blur-sm shadow-lg z-50 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="../../index.html" class="flex items-center">
+                    <img src="../../wp-content/logo/main_logo.svg" alt="Chhaya Photography" class="h-12 md:h-16">
+                </a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="../../index.html" class="nav-link text-gray-200 hover:text-red-500 transition-colors duration-300">Home</a>
+                    <a href="../../gallery/gallery.html" class="nav-link text-gray-200 hover:text-red-500 transition-colors duration-300">Gallery</a>
+                    <a href="../../about-us" class="nav-link text-gray-200 hover:text-red-500 transition-colors duration-300">About Us</a>
+                    <a href="../../index.html#contact"
+                        class="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl">Contact Us</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-gray-200" id="mobile-menu-btn" title="Open Menu" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="md:hidden hidden mobile-menu" id="mobile-menu">
+                <div class="pt-4 pb-3 space-y-3">
+                    <a href="../../index.html" class="block text-gray-200 hover:text-red-500 py-2">Home</a>
+                    <a href="../../gallery/gallery.html" class="block text-gray-200 hover:text-red-500 py-2">Gallery</a>
+                    <a href="../../about-us" class="block text-gray-200 hover:text-red-500 py-2">About Us</a>
+                    <a href="../../index.html#contact" class="block bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 text-center">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-16 page-header text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="font-display text-5xl md:text-6xl font-bold mb-4" data-aos="fade-up">
+                Replace
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8" data-aos="fade-up" data-aos-delay="100">
+                A private, exclusive share from Chhaya Photography
+            </p>
+            
+            <div class="flex items-center justify-center space-x-2 text-gray-400" data-aos="fade-up" data-aos-delay="200">
+                <a href="../../index.html" class="hover:text-red-600 transition-colors">Home</a>
+                <i class="fas fa-chevron-right text-xs"></i>
+                <span class="text-white">Replace Video</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto" data-aos="fade-up">
+                <div class="mb-8">
+                    <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Thank You for Celebrating With Us
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Below is your exclusive wedding video. This link has been privately shared and is unlisted on YouTube, ensuring only you and those you share it with can view it.
+                    </p>
+                </div>
+                
+                <!-- Video Player -->
+                <div class="video-container mb-12">
+                    <!-- Replace 'dQw4w9WgXcQ' with your actual YouTube video ID -->
+                    <iframe 
+                        src="https://www.youtube.com/embed/BJzLQnuQRss" 
+                        allowfullscreen="" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+                
+                <!-- Additional Information -->
+                <div class="bg-gray-50 rounded-2xl p-8 md:p-12">
+                    <h3 class="font-display text-2xl font-bold text-gray-900 mb-4">
+                        <i class="fas fa-info-circle text-red-600 mr-3"></i>About Your Video
+                    </h3>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-red-600 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>This video is exclusively shared with you and your loved ones</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-red-600 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>The link is unlisted and private — only accessible via direct link</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-red-600 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>Feel free to download and save a copy for your personal records</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-red-600 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>Share the link with your family and friends to relive the memories</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-16 md:py-24 bg-gray-900 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="font-display text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">
+                Thank You for Trusting Us
+            </h2>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="100">
+                We loved capturing your special day. If you'd like prints, additional editing, or have any questions about your video, please don't hesitate to reach out.
+            </p>
+            <a href="../../index.html#contact" 
+               class="inline-block bg-red-600 text-white px-8 py-4 rounded-full hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 transform" 
+               data-aos="fade-up" 
+               data-aos-delay="200">
+                Get In Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-gray-400 py-12 border-t border-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- About -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Chhaya Photography</h4>
+                    <p class="text-sm">Capturing life's precious moments with artistry and authenticity.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="../../index.html" class="hover:text-red-500 transition-colors">Home</a></li>
+                        <li><a href="../../gallery/gallery.html" class="hover:text-red-500 transition-colors">Gallery</a></li>
+                        <li><a href="../../about-us" class="hover:text-red-500 transition-colors">About Us</a></li>
+                        <li><a href="../../index.html#contact" class="hover:text-red-500 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4 text-sm">
+                        <a href="#" class="hover:text-red-500 transition-colors"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="hover:text-red-500 transition-colors"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-red-500 transition-colors"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-sm">
+                <p>&copy; 2024 Chhaya Photography. All rights reserved. | <a href="#" class="hover:text-red-500 transition-colors">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../../js/main.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: false
+        });
+        
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when link is clicked
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
